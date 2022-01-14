@@ -20,20 +20,21 @@ function compareLang(lang1, lang2, lang3, lang4) {
   $("#ruby").hide();
   $("#javascript").hide();
   $("#c").hide();
+  $("#lang-Form").hide();
   if (lang1> lang2 && lang1 > lang3 && lang1 > lang4) { //does python have most
-    $("#python").show();
+    $("#python").slideDown();
   } else if (lang2 > lang1 && lang2 > lang3 && lang2 > lang4) { // does ruby have most
-    $("#ruby").show();
+    $("#ruby").slideDown();
   } else if (lang3 > lang1 && lang3 > lang2 && lang3 > lang4) { // does js have most
     $("#javascript").show();
   } else if (lang4 > lang1 && lang4 > lang2 && lang4 >lang3){ // does c# have most
-    $("#c").show();
+    $("#c").slideDown();
   } else if (lang1 === lang2 || lang1 === lang3 || lang1 === lang4) {
-    $("#python").show();
+    $("#python").slideDown();
   } else if (lang2 === lang3 || lang2 === lang4) {
-    $("#ruby").show();
+    $("#ruby").slideDown();
   } else if (lang3 === lang4) {
-    $("#javascript").show();
+    $("#javascript").slideDown();
   } else {
     return "Error"
   }
