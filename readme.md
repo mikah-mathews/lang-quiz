@@ -1,8 +1,8 @@
-# _{Language Learning Quiz}_
+# _Language Learning Quiz_
 
-#### By _**{Mikah Mathews}**_
+#### By _**Mikah Mathews**_
 
-#### _{Quiz to find out what programming language you should learn!}_
+#### _Quiz to find out what programming language you should learn!_
 
 ## Technologies Used
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-_{This is a one page quiz to find out what programming languages you should learn. This is not determined by obvious questions, but instead by vibe. When you finish the quiz, you are told a language, in addition to multiple resources on starting to learn that language.}_
+_This is a one page quiz to find out what programming languages you should learn. This is not determined by obvious questions, but instead by vibe. When you finish the quiz, you are told a language, in addition to multiple resources on starting to learn that language._
 
 ## Setup/Installation Requirements
 
@@ -26,7 +26,7 @@ _{This is a one page quiz to find out what programming languages you should lear
 
 ## License
 
-_{Permission is hereby granted, free of charge, to any person obtaining a copy
+_Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
