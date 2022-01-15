@@ -20,7 +20,6 @@ function compareLang(lang1, lang2, lang3, lang4) {
   $("#ruby").hide();
   $("#javascript").hide();
   $("#c").hide();
-  $("#lang-Form").hide();
   if (lang1> lang2 && lang1 > lang3 && lang1 > lang4) { //does python have most
     $("#python").slideDown();
   } else if (lang2 > lang1 && lang2 > lang3 && lang2 > lang4) { // does ruby have most
