@@ -28,11 +28,11 @@ function compareLang(lang1, lang2, lang3, lang4) {
     $("#javascript").show();
   } else if (lang4 > lang1 && lang4 > lang2 && lang4 >lang3){ // does c# have most
     $("#c").slideDown();
-  } else if (lang1 === lang2 || lang1 === lang3 || lang1 === lang4) {
+  } else if (lang1 === lang2 || lang1 === lang3 || lang1 === lang4) { //tie breaker, python beats everyone
     $("#python").slideDown();
-  } else if (lang2 === lang3 || lang2 === lang4) {
+  } else if (lang2 === lang3 || lang2 === lang4) { // tie breaker, ruby will win
     $("#ruby").slideDown();
-  } else if (lang3 === lang4) {
+  } else if (lang3 === lang4) { // tie breaker, js will win
     $("#javascript").slideDown();
   } else {
     return "Error"
